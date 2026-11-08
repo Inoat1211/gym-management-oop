@@ -1,0 +1,9 @@
+bin/
+build/
+out/
+*.class
+.DS_Store
+Thumbs.db
+config.properties
+.vscode/*
+!.vscode/settings.json
