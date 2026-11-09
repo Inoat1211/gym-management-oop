@@ -7,3 +7,4 @@ Thumbs.db
 config.properties
 .vscode/*
 !.vscode/settings.json
+sources.txt
