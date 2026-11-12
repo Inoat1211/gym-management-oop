@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="gym-component" name="Component Diagram">
+    <mxGraphModel dx="1613" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1250" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="db" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;MySQL 8.0&lt;/b&gt;&lt;br&gt;gym_management&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="140" x="1030" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="p4g4mgE0zdO6PbjKvYyg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;exitX=0.203;exitY=0.98;exitDx=0;exitDy=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;gọi thao tác&lt;/font&gt;">
+          <mxGeometry relative="1" x="0.3021" as="geometry">
+            <mxPoint x="400" y="179.9999999999999" as="sourcePoint" />
+            <mxPoint x="400" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;dùng thực thể, quy tắc&lt;/font&gt;">
+          <mxGeometry relative="1" x="0.0035" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="340" y="295" as="sourcePoint" />
+            <mxPoint x="180" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;đọc/ghi dữ liệu&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490.0000000000002" y="350" as="sourcePoint" />
+            <mxPoint x="490" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;kiểm tra dữ liệu,&lt;br&gt;hiển thị thông báo&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640.0000000000002" y="295" as="sourcePoint" />
+            <mxPoint x="800" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" target="p4g4mgE0zdO6PbjKvYyg-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;tạo đối tượng&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="495" as="sourcePoint" />
+            <mxPoint x="300" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" target="p4g4mgE0zdO6PbjKvYyg-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;lấy kết nối&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="495" as="sourcePoint" />
+            <mxPoint x="679.9999999999998" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="p4g4mgE0zdO6PbjKvYyg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;" target="p4g4mgE0zdO6PbjKvYyg-17" value="">
+          <mxGeometry relative="1" x="-0.7176" as="geometry">
+            <mxPoint x="970" y="570" as="sourcePoint" />
+            <mxPoint x="1000" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4g4mgE0zdO6PbjKvYyg-23" connectable="0" parent="e7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontSize,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;JDBC&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1097" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" target="db" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;SQL&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;entryX=0.143;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;" target="p4g4mgE0zdO6PbjKvYyg-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ném ngoại lệ&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="180" y="570" as="sourcePoint" />
+            <mxPoint x="490" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="p4g4mgE0zdO6PbjKvYyg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;" target="p4g4mgE0zdO6PbjKvYyg-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ném / bắt ngoại lệ&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="570" as="sourcePoint" />
+            <mxPoint x="490" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;entryX=0.861;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;" target="p4g4mgE0zdO6PbjKvYyg-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ném ngoại lệ&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="570" as="sourcePoint" />
+            <mxPoint x="490" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;exitX=0;exitY=0.727;exitDx=0;exitDy=0;fontFamily=Times New Roman;" target="p4g4mgE0zdO6PbjKvYyg-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;bắt ngoại lệ&lt;/font&gt;">
+          <mxGeometry relative="1" x="-0.1579" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="320" />
+            </Array>
+            <mxPoint x="340" y="319.97" as="sourcePoint" />
+            <mxPoint x="330.03999999999996" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;labelBackgroundColor=#ffffff;exitX=0.8;exitY=0;exitDx=0;exitDy=0;entryX=0.796;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;" target="p4g4mgE0zdO6PbjKvYyg-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;gọi làm mới dữ liệu&lt;/font&gt;">
+          <mxGeometry relative="1" x="-0.3322" as="geometry">
+            <mxPoint x="579.9999999999998" y="240" as="sourcePoint" />
+            <mxPoint x="579.9999999999998" y="179.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4g4mgE0zdO6PbjKvYyg-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Times New Roman;" value="" vertex="1">
+          <mxGeometry height="120" width="300" x="340" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="p4g4mgE0zdO6PbjKvYyg-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;«component»&lt;br&gt;&lt;b style=&quot;&quot;&gt;View&lt;/b&gt;&lt;br&gt;MainFrame, MemberPanel, CardPanel,&lt;br&gt;CheckInPanel, ReportPanel&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="230" x="380" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="p4g4mgE0zdO6PbjKvYyg-3" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Times New Roman;" value="" vertex="1">
+          <mxGeometry height="110" width="300" x="340" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p4g4mgE0zdO6PbjKvYyg-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;«component»&lt;br&gt;&lt;b style=&quot;&quot;&gt;Controller&lt;/b&gt;&lt;br&gt;MemberController, CardController,&lt;br&gt;CheckInController, ReportController&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="270" x="360" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="p4g4mgE0zdO6PbjKvYyg-6" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Times New Roman;" value="" vertex="1">
+          <mxGeometry height="150" width="240" x="20" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="p4g4mgE0zdO6PbjKvYyg-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;«component»&lt;br&gt;&lt;b style=&quot;&quot;&gt;Model&lt;/b&gt;&lt;br&gt;Member, MembershipCard (abstract),&lt;br&gt;SessionCard, MonthlyCard,&lt;br&gt;YearlyCard, VipCard,&lt;br&gt;CheckInLog, CardFactory&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="250" x="20" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="p4g4mgE0zdO6PbjKvYyg-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Times New Roman;" value="" vertex="1">
+          <mxGeometry height="130" width="220" x="380" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="p4g4mgE0zdO6PbjKvYyg-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;«component»&lt;br&gt;&lt;b style=&quot;&quot;&gt;DAO&lt;/b&gt;&lt;br&gt;MemberDAO, CardDAO,&lt;br&gt;CheckInDAO, ReportDAO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="150" width="230" x="375" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p4g4mgE0zdO6PbjKvYyg-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Times New Roman;" value="" vertex="1">
+          <mxGeometry height="150" width="240" x="710" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="p4g4mgE0zdO6PbjKvYyg-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;«component»&lt;br&gt;&lt;b style=&quot;&quot;&gt;Util&lt;/b&gt;&lt;br&gt;DBConnection (Singleton),&lt;br&gt;Validator, DialogUtil&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="240" x="710" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="p4g4mgE0zdO6PbjKvYyg-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Times New Roman;" value="" vertex="1">
+          <mxGeometry height="80" width="860" x="60" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="p4g4mgE0zdO6PbjKvYyg-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;«component»&lt;br&gt;&lt;b style=&quot;&quot;&gt;Exception&lt;/b&gt;&lt;br&gt;InvalidDataException, DuplicateDataException, CardExpiredException, OutOfSessionException&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="760" x="90" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="p4g4mgE0zdO6PbjKvYyg-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Times New Roman;" value="" vertex="1">
+          <mxGeometry height="90" width="190" x="1030" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="p4g4mgE0zdO6PbjKvYyg-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;«library»&lt;br&gt;&lt;b style=&quot;&quot;&gt;MySQL Connector/J&lt;/b&gt;&lt;br&gt;(JDBC driver)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="1030" y="465" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
