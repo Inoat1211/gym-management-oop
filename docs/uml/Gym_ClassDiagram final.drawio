@@ -1,0 +1,331 @@
+<mxfile host="Electron" agent="Claude">
+  <diagram id="gym-class-diagram" name="Class Diagram">
+    <mxGraphModel dx="1086" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="1067" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c_Member" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#FFFFFF;" value="Member" vertex="1">
+          <mxGeometry height="230" width="230" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" parent="c_Member" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- memberId: String" vertex="1">
+          <mxGeometry height="18" width="230" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" parent="c_Member" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- fullName: String" vertex="1">
+          <mxGeometry height="18" width="230" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" parent="c_Member" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- phone: String" vertex="1">
+          <mxGeometry height="18" width="230" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" parent="c_Member" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- dob: LocalDate" vertex="1">
+          <mxGeometry height="18" width="230" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" parent="c_Member" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- gender: String" vertex="1">
+          <mxGeometry height="18" width="230" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" parent="c_Member" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- height: double" vertex="1">
+          <mxGeometry height="18" width="230" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" parent="c_Member" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- weight: double" vertex="1">
+          <mxGeometry height="18" width="230" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" parent="c_Member" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- email: String" vertex="1">
+          <mxGeometry height="18" width="230" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" parent="c_Member" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- createdAt: LocalDate" vertex="1">
+          <mxGeometry height="18" width="230" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" parent="c_Member" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="230" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" parent="c_Member" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ calculateBMI(): double" vertex="1">
+          <mxGeometry height="18" width="230" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" parent="c_Member" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ getBMIComment(): String" vertex="1">
+          <mxGeometry height="18" width="230" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="c_CheckInLog" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#FFFFFF;" value="CheckInLog" vertex="1">
+          <mxGeometry height="158" width="230" x="740" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" parent="c_CheckInLog" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- logId: int" vertex="1">
+          <mxGeometry height="18" width="230" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" parent="c_CheckInLog" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- cardId: String" vertex="1">
+          <mxGeometry height="18" width="230" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" parent="c_CheckInLog" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- checkInTime: LocalDateTime" vertex="1">
+          <mxGeometry height="18" width="230" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" parent="c_CheckInLog" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- checkOutTime: LocalDateTime" vertex="1">
+          <mxGeometry height="18" width="230" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" parent="c_CheckInLog" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- note: String" vertex="1">
+          <mxGeometry height="18" width="230" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" parent="c_CheckInLog" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="230" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" parent="c_CheckInLog" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ isCheckedOut(): boolean" vertex="1">
+          <mxGeometry height="18" width="230" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" parent="c_CheckInLog" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ getDurationMinutes(): long" vertex="1">
+          <mxGeometry height="18" width="230" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c_MembershipCard" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=#FFFFFF;" value="&lt;span style=&quot;font-weight:normal&quot;&gt;«abstract»&lt;/span&gt;&lt;br&gt;&lt;i&gt;MembershipCard&lt;/i&gt;" vertex="1">
+          <mxGeometry height="262" width="300" x="350" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" parent="c_MembershipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- cardId: String" vertex="1">
+          <mxGeometry height="18" width="300" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" parent="c_MembershipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- memberId: String" vertex="1">
+          <mxGeometry height="18" width="300" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" parent="c_MembershipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- startDate: LocalDate" vertex="1">
+          <mxGeometry height="18" width="300" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" parent="c_MembershipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- endDate: LocalDate" vertex="1">
+          <mxGeometry height="18" width="300" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="n35" parent="c_MembershipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- price: double" vertex="1">
+          <mxGeometry height="18" width="300" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n36" parent="c_MembershipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- frozenDaysUsed: int" vertex="1">
+          <mxGeometry height="18" width="300" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="n37" parent="c_MembershipCard" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="300" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="n38" parent="c_MembershipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=2;" value="+ checkValid(date: LocalDate): void" vertex="1">
+          <mxGeometry height="18" width="300" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="n39" parent="c_MembershipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=2;" value="+ freezeCard(days: int): void" vertex="1">
+          <mxGeometry height="18" width="300" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="n40" parent="c_MembershipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=2;" value="+ getCardType(): String" vertex="1">
+          <mxGeometry height="18" width="300" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="n41" parent="c_MembershipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=2;" value="+ getDurationDays(): int" vertex="1">
+          <mxGeometry height="18" width="300" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="n42" parent="c_MembershipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ calculateEndDate(): LocalDate" vertex="1">
+          <mxGeometry height="18" width="300" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="n43" parent="c_MembershipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ isExpired(date: LocalDate): boolean" vertex="1">
+          <mxGeometry height="18" width="300" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="c_SessionCard" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=#FFFFFF;" value="SessionCard" vertex="1">
+          <mxGeometry height="194" width="220" x="30" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="n44" parent="c_SessionCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=4;" value="+ TOTAL_SESSIONS: int = 10" vertex="1">
+          <mxGeometry height="18" width="220" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n45" parent="c_SessionCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=4;" value="+ DURATION_DAYS: int = 60" vertex="1">
+          <mxGeometry height="18" width="220" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n46" parent="c_SessionCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=4;" value="+ LIST_PRICE: double = 300000" vertex="1">
+          <mxGeometry height="18" width="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n47" parent="c_SessionCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- remainingSessions: int" vertex="1">
+          <mxGeometry height="18" width="220" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="n48" parent="c_SessionCard" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n49" parent="c_SessionCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ checkValid(date: LocalDate): void" vertex="1">
+          <mxGeometry height="18" width="220" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n50" parent="c_SessionCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ freezeCard(days: int): void" vertex="1">
+          <mxGeometry height="18" width="220" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="n51" parent="c_SessionCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ getCardType(): String" vertex="1">
+          <mxGeometry height="18" width="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n52" parent="c_SessionCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ getDurationDays(): int" vertex="1">
+          <mxGeometry height="18" width="220" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="n53" parent="c_SessionCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ deductSession(): void" vertex="1">
+          <mxGeometry height="18" width="220" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="c_MonthlyCard" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=#FFFFFF;" value="MonthlyCard" vertex="1">
+          <mxGeometry height="140" width="220" x="270" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="n54" parent="c_MonthlyCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=4;" value="+ DURATION_DAYS: int = 30" vertex="1">
+          <mxGeometry height="18" width="220" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n55" parent="c_MonthlyCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=4;" value="+ LIST_PRICE: double = 500000" vertex="1">
+          <mxGeometry height="18" width="220" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n56" parent="c_MonthlyCard" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n57" parent="c_MonthlyCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ checkValid(date: LocalDate): void" vertex="1">
+          <mxGeometry height="18" width="220" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="n58" parent="c_MonthlyCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ freezeCard(days: int): void" vertex="1">
+          <mxGeometry height="18" width="220" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="n59" parent="c_MonthlyCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ getCardType(): String" vertex="1">
+          <mxGeometry height="18" width="220" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n60" parent="c_MonthlyCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ getDurationDays(): int" vertex="1">
+          <mxGeometry height="18" width="220" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="c_YearlyCard" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=#FFFFFF;" value="YearlyCard" vertex="1">
+          <mxGeometry height="194" width="220" x="510" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="n61" parent="c_YearlyCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=4;" value="+ DURATION_DAYS: int = 365" vertex="1">
+          <mxGeometry height="18" width="220" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n62" parent="c_YearlyCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=4;" value="+ LIST_PRICE: double = 4500000" vertex="1">
+          <mxGeometry height="18" width="220" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n63" parent="c_YearlyCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=4;" value="+ MAX_FREEZE_DAYS: int = 15" vertex="1">
+          <mxGeometry height="18" width="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n64" parent="c_YearlyCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=4;" value="+ DISCOUNT_RATE: double = 0.25" vertex="1">
+          <mxGeometry height="18" width="220" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="n65" parent="c_YearlyCard" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n66" parent="c_YearlyCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ checkValid(date: LocalDate): void" vertex="1">
+          <mxGeometry height="18" width="220" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="n67" parent="c_YearlyCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ freezeCard(days: int): void" vertex="1">
+          <mxGeometry height="18" width="220" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="n68" parent="c_YearlyCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ getCardType(): String" vertex="1">
+          <mxGeometry height="18" width="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n69" parent="c_YearlyCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ getDurationDays(): int" vertex="1">
+          <mxGeometry height="18" width="220" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="n70" parent="c_YearlyCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ getRemainingFreezeDays(): int" vertex="1">
+          <mxGeometry height="18" width="220" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="c_VipCard" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=#FFFFFF;" value="VipCard" vertex="1">
+          <mxGeometry height="212" width="220" x="750" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="n71" parent="c_VipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=4;" value="+ DURATION_DAYS: int = 365" vertex="1">
+          <mxGeometry height="18" width="220" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n72" parent="c_VipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=4;" value="+ LIST_PRICE: double = 6000000" vertex="1">
+          <mxGeometry height="18" width="220" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n73" parent="c_VipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=4;" value="+ MAX_FREEZE_DAYS: int = 30" vertex="1">
+          <mxGeometry height="18" width="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n74" parent="c_VipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=4;" value="+ GUEST_PASSES_PER_MONTH: int = 2" vertex="1">
+          <mxGeometry height="18" width="220" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="n75" parent="c_VipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="- vipBenefit: String" vertex="1">
+          <mxGeometry height="18" width="220" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n76" parent="c_VipCard" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="n77" parent="c_VipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ checkValid(date: LocalDate): void" vertex="1">
+          <mxGeometry height="18" width="220" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="n78" parent="c_VipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ freezeCard(days: int): void" vertex="1">
+          <mxGeometry height="18" width="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n79" parent="c_VipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ getCardType(): String" vertex="1">
+          <mxGeometry height="18" width="220" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="n80" parent="c_VipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ getDurationDays(): int" vertex="1">
+          <mxGeometry height="18" width="220" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="n81" parent="c_VipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="+ getRemainingFreezeDays(): int" vertex="1">
+          <mxGeometry height="18" width="220" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="c_CardFactory" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#FFFFFF;" value="&lt;span style=&quot;font-weight:normal&quot;&gt;«Simple Factory»&lt;/span&gt;&lt;br&gt;CardFactory" vertex="1">
+          <mxGeometry height="98" width="340" x="330" y="694" as="geometry" />
+        </mxCell>
+        <mxCell id="n82" parent="c_CardFactory" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="340" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="n83" parent="c_CardFactory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=4;" value="+ createCard(cardType: String, memberId: String,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;startDate: LocalDate): MembershipCard" vertex="1">
+          <mxGeometry height="34" width="340" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="n84" parent="c_CardFactory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontStyle=4;" value="+ getListPrice(cardType: String): double" vertex="1">
+          <mxGeometry height="18" width="340" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="c_SessionCard" style="endArrow=block;endSize=14;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5000;exitY=0.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;" target="c_MembershipCard" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="342" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="c_MonthlyCard" style="endArrow=block;endSize=14;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5000;exitY=0.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;" target="c_MembershipCard" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="342" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="c_YearlyCard" style="endArrow=block;endSize=14;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5000;exitY=0.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;" target="c_MembershipCard" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="342" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="c_VipCard" style="endArrow=block;endSize=14;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5000;exitY=0.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;" target="c_MembershipCard" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="342" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="c_CardFactory" style="endArrow=open;endSize=10;endFill=0;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.0588;exitY=0.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;" target="c_SessionCard" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="639" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="c_CardFactory" style="endArrow=open;endSize=10;endFill=0;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.1471;exitY=0.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;" target="c_MonthlyCard" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="c_CardFactory" style="endArrow=open;endSize=10;endFill=0;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.8529;exitY=0.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;" target="c_YearlyCard" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="c_CardFactory" style="endArrow=open;endSize=10;endFill=0;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.9412;exitY=0.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;" target="c_VipCard" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="639" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="c_Member" style="endArrow=none;html=1;rounded=0;edgeStyle=none;exitX=1.0000;exitY=0.5217;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.4580;entryDx=0;entryDy=0;" target="c_MembershipCard" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="c_MembershipCard" style="endArrow=none;html=1;rounded=0;edgeStyle=none;exitX=1.0000;exitY=0.4580;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.7595;entryDx=0;entryDy=0;" target="c_CheckInLog" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n85" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;fontSize=11;strokeColor=none;fillColor=none;spacing=0;" value="1" vertex="1">
+          <mxGeometry height="16" width="24" x="263" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n86" parent="1" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=0;fontSize=11;strokeColor=none;fillColor=none;spacing=0;" value="0..*" vertex="1">
+          <mxGeometry height="16" width="30" x="317" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n87" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=0;fontSize=11;fontStyle=2;strokeColor=none;fillColor=none;spacing=0;" value="sở hữu" vertex="1">
+          <mxGeometry height="16" width="70" x="270" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="n88" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;fontSize=11;strokeColor=none;fillColor=none;spacing=0;" value="1" vertex="1">
+          <mxGeometry height="16" width="24" x="653" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n89" parent="1" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=0;fontSize=11;strokeColor=none;fillColor=none;spacing=0;" value="0..*" vertex="1">
+          <mxGeometry height="16" width="30" x="707" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n90" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=0;fontSize=11;fontStyle=2;strokeColor=none;fillColor=none;spacing=0;" value="ghi nhận" vertex="1">
+          <mxGeometry height="16" width="70" x="660" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="n91" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=0;fontSize=11;strokeColor=none;fillColor=none;spacing=0;" value="«create»" vertex="1">
+          <mxGeometry height="16" width="80" x="460" y="666" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
